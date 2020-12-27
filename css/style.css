@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max_width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.navcls_1{
+    position: fixed;
+    width: 100%;
+    /*background: #5D6D7E;*/
+    z-index: 999;
+    font-family: 'Ubuntu',sans-serif;
+    padding: 30px 0;
+    transition: all 0.3s ease;
+}
+.navcls_1.sticky{
+    padding: 30px;
+    background-color: #5D6D7E;
+}
+.navcls_1 .max_width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navcls_1 .logo a{
+    /*color: white;*/
+    color: black;
+    font-size: 42px;
+    font-weight: 600;
+}
+.navcls_1 .logo a span{
+    color: #E74C3C;
+    transition: all 0.3s ease;
+}
+.navcls_1.sticky .logo a span{
+    color: white;
+}
+.navcls_1 .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navcls_1 .menu li a{
+    /*color: white;*/
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 50px;
+    transition: color 0.3s ease;
+}
+
+.navcls_1 .menu li a:hover{
+    color: #E74C3C;
+}
+.navcls_1.sticky .menu li a:hover{
+    color: #E74C3C;
+}
+.navcls_1.sticky .menu li a{
+    color: white;
+}
+
+.home{
+    display: flex;
+    background-image: url(../img/img_3.jpg);
+    background-size: 100%;
+    height: 100vh;
+    color: white;
+    text-shadow: -3px -3px 4px black;
+    min-height: 500px;
+    font-family: 'Ubuntu',sans-serif;
+    /*margin-top: 20px;*/
+
+}
+/*menu btn style*/
+.menu-btn{
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.home .home-content .text-1{
+    font-size: 35px;
+    text-align: center;
+    
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+}
+
+/*Style second section*/
+section{
+    padding: 100px 0;
+}
+.about, .skills, footer{
+    font-family: 'Poppins',sans-serif;
+}
+.about .tittle{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about .tittle::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+
+.about .tittle::after{
+    content: "Who i am";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 20px;
+    color: #E74C3C;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left{
+    width: 45%;
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .about-content .right{
+    width: 55%;
+}
+.about .about-content .right .txt{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .txt span{
+    color: #E74C3C;
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+    display: inline-block;
+    background: #E74C3C;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #E74C3C;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: #E74C3C;
+    background: none;
+}
+/*Service section*/
+.skills .tittle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.skills .tittle{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.skills .tittle::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    background: black;
+    transform: translateX(-50%);
+}
+.skills .tittle::after{
+    content: "what I know";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 20px;
+    color: #E74C3C;
+    padding: 5px;
+    background: white;
+    transform: translateX(-50%);
+}
+.skills .skills-content .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content span{
+    font-weight: 500;
+    font-size: 20px;
+}
+.skills .skills-content .line{
+    height: 5px;
+    width: 100%;
+    background: lightgray;
+    position: relative;
+}
+.skills .skills-content .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #E74C3C;
+}
+.skills-content .html::before{
+    width: 60%;
+}
+.skills-content .css::before{
+    width: 45%;
+}
+.skills-content .javascript::before{
+    width: 38%;
+}
+.skills-content .php::before{
+    width: 25%;
+}
+.skills-content .mysql::before{
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+/*responsive media query start*/
+@media (max-width: 997px){
+    .max_width{
+        padding: 0 50px;
+    }
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navcls_1 .menu{
+        position: fixed;
+        height: 1000vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: white;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navcls_1 .menu.active{
+        left: 0;
+    }
+    .navcls_1 .menu li{
+        display: block;
+    }
+    .navcls_1 .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+}
+
+
+
+
+
+
+
+/*Seccion del footer*/
+footer{
+    background: #27292a;
+    padding: 20px 23px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+footer span a{
+    color: #E74C3C;
+}

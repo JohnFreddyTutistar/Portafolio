@@ -10,6 +10,6 @@ $(document).ready(function(){
     // alterar el menu
     $('.menu-btn').click(function(){
         $('.navcls_1 .menu').toggleClass("active");
-        $('.menu-btn i').toogleClass("active");
+        $('.menu-btn i').toggleClass("active");
     })
 })

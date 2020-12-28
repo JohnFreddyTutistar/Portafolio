@@ -266,17 +266,10 @@ section{
 
 
 /*responsive media query start*/
-@media (max-width: 1104px){
-    .home .max_width{
-        margin-left: 0px;
-    }
-}
-@media (max-width: 991px){
+@media (max-width: 997px){
     .max_width{
         padding: 0 50px;
     }
-}
-@media (max-width: 997px){
     .menu-btn{
         display: block;
         z-index: 999;

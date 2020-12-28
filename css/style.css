@@ -76,6 +76,9 @@
     /*margin-top: 20px;*/
 
 }
+.home .max_width{
+    margin: auto 0 auto 40px;
+}
 /*menu btn style*/
 .menu-btn{
     color: black;
@@ -266,10 +269,17 @@ section{
 
 
 /*responsive media query start*/
-@media (max-width: 997px){
+@media (max-width: 1104px){
+    .home .max_width{
+        margin-left: 0px;
+    }
+}
+@media (max-width: 991px){
     .max_width{
         padding: 0 50px;
     }
+}
+@media (max-width: 997px){
     .menu-btn{
         display: block;
         z-index: 999;
@@ -283,7 +293,7 @@ section{
         width: 100%;
         left: -100%;
         top: 0;
-        background: white;
+        background: black;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;

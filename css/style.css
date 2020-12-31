@@ -358,10 +358,7 @@ section{
     height: 50px;
     text-align: center;
 }
-.redes-container ul{
-    padding-left: 30px;
-}
-.redes-container ul li a{
+.redes-container ul .red a{
     display: block;
     padding: 0 10px;
     background: #333;
@@ -375,18 +372,18 @@ section{
 .redes-container ul:hover a{
     filter: blur(2px);
 }
-.redes-container ul li a:hover{
+.redes-container ul .red a:hover{
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
     filter: none;
 }
-.redes-container ul li .intagram:hover{
+.redes-container ul .red .intagram:hover{
     background: var(--instagram);
 }
-.redes-container ul li .github:hover{
+.redes-container ul .red .github:hover{
     background: var(--github);
 }
-.redes-container ul li .linkdin:hover{
+.redes-container ul .red .linkdin:hover{
     background: var(--linkdin);
 }
 

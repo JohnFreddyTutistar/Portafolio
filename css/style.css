@@ -98,7 +98,7 @@
 section{
     padding: 100px 0;
 }
-.about, .skills, footer{
+.about, .skills, .contact, footer{
     font-family: 'Poppins',sans-serif;
 }
 .about .tittle{

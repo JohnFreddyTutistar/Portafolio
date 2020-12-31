@@ -258,9 +258,10 @@ section{
     width: 70%;
 }
 
-
-
-
+/*style contact*/
+.contact .tittle::after{
+    content: "get in touch";
+}
 
 
 

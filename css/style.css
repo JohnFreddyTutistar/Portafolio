@@ -94,7 +94,7 @@
     font-weight: 600;
 }
 
-/*Style second section*/
+/*Style about section*/
 section{
     padding: 100px 0;
 }
@@ -279,7 +279,9 @@ section{
 .contact .contact-content .left p{
     text-align: justify;
 }
-
+.contact .contact-content .left p span{
+    color: #E74C3C;
+}
 
 
 

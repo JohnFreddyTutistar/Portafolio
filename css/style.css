@@ -358,6 +358,9 @@ section{
     height: 50px;
     text-align: center;
 }
+.redes-container ul{
+    padding-left: 30px;
+}
 .redes-container ul li a{
     display: block;
     padding: 0 10px;

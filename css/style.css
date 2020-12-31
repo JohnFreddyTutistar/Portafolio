@@ -174,10 +174,10 @@ section{
     border: 2px solid #E74C3C;
     transition: all 0.3s ease;
 }*/
-.about .about-content .right a:hover{
+/*.about .about-content .right a:hover{
     color: #E74C3C;
     background: none;
-}
+}*/
 /*Skill section*/
 .skills .tittle{
     text-align: center;
@@ -291,6 +291,10 @@ section{
     border-radius: 6px;
     border: 2px solid #E74C3C;
     transition: all 0.3s ease;
+}
+.contact .contact-content .left a:hover{
+    color: #E74C3C;
+    background: none;
 }
 .contact .contact-content .left p span{
     color: #E74C3C;

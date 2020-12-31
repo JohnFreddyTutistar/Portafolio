@@ -351,14 +351,14 @@ section{
     display: flex;
     width: 100vh;
 }
-.redes-container ul .red{
+.redes-container .order_item .red{
     display: inline-block;
     margin: 0 5px;
     width: 50px;
     height: 50px;
     text-align: center;
 }
-.redes-container ul .red a{
+.redes-container .order_item .red a{
     display: block;
     padding: 0 10px;
     background: #333;
@@ -369,21 +369,21 @@ section{
     transition: .2;
     border-radius: 10px;
 }
-.redes-container ul:hover a{
+.redes-container .order_item:hover a{
     filter: blur(2px);
 }
-.redes-container ul .red a:hover{
+.redes-container .order_item .red a:hover{
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
     filter: none;
 }
-.redes-container ul .red .intagram:hover{
+.redes-container .order_item .red .intagram:hover{
     background: var(--instagram);
 }
-.redes-container ul .red .github:hover{
+.redes-container .order_item .red .github:hover{
     background: var(--github);
 }
-.redes-container ul .red .linkdin:hover{
+.redes-container .order_item .red .linkdin:hover{
     background: var(--linkdin);
 }
 

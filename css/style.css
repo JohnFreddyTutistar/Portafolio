@@ -344,7 +344,7 @@ section{
 /*Redes container*/
 :root{
     --instagram: #e4405f;
-    --github: #fff;
+    --github: #000;
     --linkdin: #55acee;
 }
 .redes-container{
@@ -390,7 +390,7 @@ section{
 
 
 
-/*Seccion del footer*/
+/* footer section*/
 footer{
     background: #27292a;
     padding: 20px 23px;

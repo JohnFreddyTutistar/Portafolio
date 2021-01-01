@@ -305,6 +305,19 @@ section{
 .contact .contact-content .left p span{
     color: #E74C3C;
 }
+.contact .right form .fields{
+    display: flex;
+
+}
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+} 
+.contact .right form .field input{
+    height: 100%;
+    width: 100%;
+}
 
 
 

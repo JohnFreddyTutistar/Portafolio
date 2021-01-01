@@ -319,14 +319,21 @@ section{
 .contact .right form .fields .field{
     height: 45px;
     width: 100%;
+    margin-bottom: 15px;
 } 
-.contact .right form .field input{
+.contact .right form .field textarea{
+    height: 80px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
     height: 100%;
     width: 100%;
     border: 1px solid lightgray;
     border-radius: 6px;
     outline: none;
     padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
 }
 .contact .contact-content .right{
     font-size: 20px;

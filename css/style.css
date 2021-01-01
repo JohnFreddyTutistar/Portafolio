@@ -345,11 +345,11 @@ section{
 
 
 /*Redes container*/
-:root{
+/*:root{
     --instagram: #e4405f;
     --github: #000;
     --linkdin: #55acee;
-}
+}*/
 .redes-container{
     display: flex;
     width: 100vh;

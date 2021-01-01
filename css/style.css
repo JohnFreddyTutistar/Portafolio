@@ -275,7 +275,7 @@ section{
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
-.contact .contact-content .left .right{
+.contact .contact-content .left{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -318,7 +318,11 @@ section{
     height: 100%;
     width: 100%;
 }
-
+.contact .contact-content .right{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 
 /*responsive media query start*/

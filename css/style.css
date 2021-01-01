@@ -298,6 +298,9 @@ section{
 .contact .contact-content .left a:hover{
     color: #E74C3C;
     background: none;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
 }
 .contact .contact-content .left p span{
     color: #E74C3C;

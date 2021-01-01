@@ -258,6 +258,9 @@ section{
 .skills-content .mysql::before{
     width: 70%;
 }
+.skills-content .java::before{
+    width: 50%;
+}
 
 /*style contact*/
 .contact .tittle{

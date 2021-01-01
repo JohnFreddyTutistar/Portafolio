@@ -338,7 +338,7 @@ section{
 .contact .right form .textarea textarea{
     padding-top: 10px;
     resize: none;
-    width: 100%;
+    /*width: 100%;*/
 }
 .contact .right form .button{
     height: 47px;

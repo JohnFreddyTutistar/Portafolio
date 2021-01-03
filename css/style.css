@@ -469,3 +469,8 @@ footer{
 footer span a{
     color: #E74C3C;
 }
+
+/*Animated scroll*/
+html{
+    scroll-behavior: smooth;
+}

@@ -5,6 +5,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+.name_portfolio{
+    font-family: 'Fredoka One', cursive;
+}
 .max_width{
     max-width: 1300px;
     padding: 0 80px;

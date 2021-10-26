@@ -261,6 +261,12 @@ section{
 .skills-content .java::before{
     width: 50%;
 }
+.skills-content .python::before{
+    width: 25%;
+}
+.skills-content .node::before{
+    width: 20%;
+}
 
 /*style contact*/
 .contact .tittle{

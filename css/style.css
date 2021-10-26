@@ -207,7 +207,7 @@ section{
     transform: translateX(-50%);
 }
 .skills .tittle::after{
-    content: "what I know";
+    content: "my knowledge";
     position: absolute;
     bottom: -10px;
     left: 50%;

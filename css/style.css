@@ -35,7 +35,7 @@
     font-weight: 600;
 }
 .navcls_1 .logo a span{
-    color: #E74C3C;
+    color: #2874A6;
     transition: all 0.3s ease;
 }
 .navcls_1.sticky .logo a span{
@@ -127,7 +127,7 @@ section{
     bottom: -10px;
     left: 50%;
     font-size: 20px;
-    color: #E74C3C;
+    color: #2874A6;
     padding: 5px;
     background: white;
     transform: translateX(-50%);
@@ -156,7 +156,7 @@ section{
     margin-bottom: 10px;
 }
 .about .about-content .right .txt span{
-    color: #E74C3C;
+    color: #2874A6;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -212,7 +212,7 @@ section{
     bottom: -10px;
     left: 50%;
     font-size: 20px;
-    color: #E74C3C;
+    color: #2874A6;
     padding: 5px;
     background: white;
     transform: translateX(-50%);
@@ -241,7 +241,7 @@ section{
     height: 100%;
     left: 0;
     top: 0;
-    background: #E74C3C;
+    background: #2874A6;
 }
 .skills-content .html::before{
     width: 60%;
@@ -309,7 +309,7 @@ section{
     filter: none;
 }
 .contact .contact-content .left p span{
-    color: #E74C3C;
+    color: #2874A6;
 }
 .contact .right form .fields{
     display: flex;
@@ -347,8 +347,8 @@ section{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid #E74C3C;
-    background: #E74C3C;
+    border: 2px solid #2874A6;
+    background: #2874A6;
     color: white;
     font-size: 20px;
     font-weight: 500;
@@ -357,7 +357,7 @@ section{
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: #E74C3C;
+    color: #2874A6;
     background: none;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
@@ -467,7 +467,7 @@ footer{
     font-size: 20px;
 }
 footer span a{
-    color: #E74C3C;
+    color: #5DADE2;
 }
 
 /*Animated scroll*/

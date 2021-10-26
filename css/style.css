@@ -244,13 +244,13 @@ section{
     background: #2874A6;
 }
 .skills-content .html::before{
-    width: 60%;
+    width: 85%;
 }
 .skills-content .css::before{
-    width: 45%;
+    width: 75%;
 }
 .skills-content .javascript::before{
-    width: 38%;
+    width: 45%;
 }
 .skills-content .php::before{
     width: 25%;

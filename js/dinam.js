@@ -13,10 +13,3 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     })
 })
-
-function message(){
-    document.getElementById("send_msg").onclick = function(){
-        alert("Sending message");
-    }
-}
-message();

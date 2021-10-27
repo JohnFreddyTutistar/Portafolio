@@ -37,7 +37,11 @@
     font-size: 50px;
     font-weight: 600;
 }
-.navcls_1 .logo a span{
+.navcls_1 .logo a .word1{
+    color: #AEB6BF;
+    transition: all 0.3s ease;
+}
+.navcls_1 .logo a .word2{
     color: #2874A6;
     transition: all 0.3s ease;
 }

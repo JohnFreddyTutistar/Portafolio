@@ -217,6 +217,8 @@ section{
 }*/
 .about .about-content .btn-cv .link-d:hover{
     color: #2874A6;
+}
+.about .about-content .btn-cv:hover{
     background: none;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);

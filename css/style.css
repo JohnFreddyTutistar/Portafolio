@@ -193,12 +193,14 @@ section{
     width: 170px;
     border: 2px solid #2874A6;
     background: #2874A6;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
     border-radius: 6px;
     cursor: pointer;
     transition: all 0.3s ease;
+}
+.about .about-content .btn-cv .link-d{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
 }
 /*
 .about .about-content .btn-cv button{

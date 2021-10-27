@@ -188,6 +188,11 @@ section{
     color: #E74C3C;
     background: none;
 }*/
+.about .about-content .btn-cv{
+    height: 47px;
+    width: 170px;
+}
+
 /*Skill section*/
 .skills .tittle{
     text-align: center;

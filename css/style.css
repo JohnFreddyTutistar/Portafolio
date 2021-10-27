@@ -192,6 +192,13 @@ section{
     height: 47px;
     width: 170px;
 }
+.about .about-content .btn-cv:hover{
+    color: #2874A6;
+    background: none;
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
 
 /*Skill section*/
 .skills .tittle{

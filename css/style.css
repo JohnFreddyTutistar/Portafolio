@@ -215,7 +215,7 @@ section{
     cursor: pointer;
     transition: all 0.3s ease;
 }*/
-.about .about-content .btn-cv:hover{
+.about .about-content .btn-cv .link-d:hover{
     color: #2874A6;
     background: none;
     transform: translateY(-3px) scale(1.05);

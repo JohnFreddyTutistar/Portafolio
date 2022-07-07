@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,33 +14,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
+
 <body>
-    <nav class="navcls_1">
-        <div class="max_width">
-            <div class="logo"><a href="#" class="name_portfolio">
-                <span class="word1">Port</span><span class="word2">folio.</span></a></div>
-            <ul class="menu">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
-            </div>
+    <header>
+        <div class="overlay"></div>
+        <div class="absolute">
+            <nav class="navcls_1">
+                <div class="max_width">
+                    <div class="logo">
+                        <a href="#" class="name_portfolio">
+                            <span class="word1">Port</span><span class="word2">folio.</span></a>
+                    </div>
+                    <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </nav>
+
+            <section class="home" id="home">
+                <div class="max_width">
+                    <div class="home-content">
+                        <div class="text-1">John Freddy Tutistar</div>
+                        <div class="text-2">Web Developer</div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </nav>
-    
-    <section class="home" id="home">
-        <div class="max_width">
-            <div class="home-content">
-                <div class="text-1">John Freddy Tutistar</div>
-                <div class="text-2">Web Developer</div>
-            </div>
-        </div>
-    </section>
+
+        <video src="img/vid16.mp4" onloadedmetadata="this.muted=true" autoplay loop></video>
+    </header>
 
     <!--about section-->
     <section class="about" id="about">
@@ -47,16 +60,20 @@
             <h2 class="tittle">About me</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="img/img-john2.jpg" alt="">
+                    <img src="img/john.jpg" alt="" class="rounded-circle">
                 </div>
                 <div class="column right">
                     <div class="txt">John Freddy Tutistar,<span> Systems Engineer</span></div>
-                    <p>Hello, my name is John Tutistar, I was born in Pasto city Colombia on February 3, 1994. I am currently studying systems engineering at Cesmag University, I am in the eighth semester.</p><br>
-                    <p>Since I was little I have been interested in the functionality of the devices with which I interacted. From there I consider myself a lover of technologies</p><br>
-                    <p>I like to work in a team, however I know how to work alone when the situation requires it. which has made me excel in my studies and stand out before others</p><br><br>
+                    <p>Hello, my name is John Tutistar, I was born in Pasto city Colombia on February 3, 1994. I am
+                        currently studying systems engineering at Cesmag University, I am in the eighth semester.</p>
+                    <br>
+                    <p>Since I was little I have been interested in the functionality of the devices with which I
+                        interacted. From there I consider myself a lover of technologies</p><br>
+                    <p>I like to work in a team, however I know how to work alone when the situation requires it. which
+                        has made me excel in my studies and stand out before others</p><br><br>
 
                     <button class="btn-cv">
-                        <a href="Doc/HOJA DE VIDA.pdf" download="CV" class="link-d" color="#fff">Download cv</a>
+                        <a href="Doc/HOJA DE VIDA.pdf" download="CV" class="link-d" color="#fff" style="text-decoration: none;">Download cv</a>
                     </button>
                 </div>
             </div>
@@ -70,62 +87,62 @@
         <div class="max_width">
             <h2 class="tittle">My Skills</h2>
             <div class="skills-content">
-                 <div class="bars">
+                <div class="bars">
                     <div class="info">
                         <span>HTML</span>
                         <span>85%</span>
                     </div>
                     <div class="line html"></div>
-                 </div>
-                 <div class="bars">
+                </div>
+                <div class="bars">
                     <div class="info">
                         <span>CSS</span>
                         <span>75%</span>
                     </div>
                     <div class="line css"></div>
-                 </div>
-                 <div class="bars">
+                </div>
+                <div class="bars">
                     <div class="info">
                         <span>JavaScript</span>
                         <span>45%</span>
                     </div>
                     <div class="line javascript"></div>
-                 </div>
-                 <div class="bars">
+                </div>
+                <div class="bars">
                     <div class="info">
                         <span>PHP</span>
                         <span>25%</span>
                     </div>
                     <div class="line php"></div>
-                 </div>
-                 <div class="bars">
+                </div>
+                <div class="bars">
                     <div class="info">
                         <span>MySql</span>
                         <span>70%</span>
                     </div>
                     <div class="line mysql"></div>
-                 </div>
-                 <div class="bars">
+                </div>
+                <div class="bars">
                     <div class="info">
                         <span>Java</span>
                         <span>50%</span>
                     </div>
                     <div class="line java"></div>
-                 </div>
-                 <div class="bars">
+                </div>
+                <div class="bars">
                     <div class="info">
                         <span>Python</span>
                         <span>25%</span>
                     </div>
                     <div class="line python"></div>
-                 </div>
-                 <div class="bars">
+                </div>
+                <div class="bars">
                     <div class="info">
                         <span>NodeJS</span>
                         <span>20%</span>
                     </div>
                     <div class="line node"></div>
-                 </div>
+                </div>
             </div>
 
         </div>
@@ -134,24 +151,29 @@
 
     <!--project section-->
     <section>
-        
+
     </section>
 
     <!--contact section-->
     <section class="contact" id="contact">
-        <div class="max_width"> 
+        <div class="max_width">
             <h2 class="tittle">Contact me</h2>
             <div class="contact-content">
                 <div class="column left">
                     <div class="text">Get in touch</div><br>
-                    <p>You can send me an email to: <span>jhonfre.157@gmail.com</span> or go directly to my social networks located at the bottom of this section.</p><br><br>
+                    <p>You can send me an email to: <span>jhonfre.157@gmail.com</span> or go directly to my social
+                        networks located at the bottom of this section.</p><br><br>
                     <p>You can also contact me at my personal number: +57 310 512 4961</p>
                     <!--<a href="#">Download CV </a><br>-->
                     <div class="redes-container">
                         <ul class="order_item">
-                            <li class="red"><a target="_blank" href="https://www.instagram.com/john_capm/?hl=es-la" class="instagram"><i class="fab fa-instagram"></i></a></li>
-                            <li class="red"><a target="_blank" href="https://github.com/JohnFreddyTutistar" class="github"><i class="fab fa-github"></i></a></li>
-                            <li class="red"><a target="_blank" href="https://www.linkedin.com/in/john-freddy-tutistar-99a85b1b3/" class="linkdin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="red"><a target="_blank" href="https://www.instagram.com/john_capm/?hl=es-la"
+                                    class="instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li class="red"><a target="_blank" href="https://github.com/JohnFreddyTutistar"
+                                    class="github"><i class="fab fa-github"></i></a></li>
+                            <li class="red"><a target="_blank"
+                                    href="https://www.linkedin.com/in/john-freddy-tutistar-99a85b1b3/"
+                                    class="linkdin"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -163,34 +185,36 @@
                                 <input type="text" placeholder="Name" required>
                             </div>
                         </div>
-                            <div class="field email">
-                                <input type="email" placeholder="email" required>
-                            </div>
-                            <div class="field textarea">
-                                <textarea cols="30" rows="10" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="button">
-                                <button onclick="send()">Send message</button>
-                                <script>
-                                    function send(){
-                                        alert("Message sent");
-                                    }
-                                </script>
-                            </div>
+                        <div class="field email">
+                            <input type="email" placeholder="email" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="button">
+                            <button onclick="send()">Send message</button>
+                            <script>
+                                function send() {
+                                    alert("Message sent");
+                                }
+                            </script>
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-    
+
 
 
     <!--footer section-->
     <footer>
-        <span>Developed By <a href="#">John Tutistar</a> | <span class="far fa-copyright"></span> 2020 All rights recerved</span>
+        <span>Developed By <a href="#">John Tutistar</a> | <span class="far fa-copyright"></span> 2020 All rights
+            recerved</span>
     </footer>
 
-    
+
     <script src="js/dinam.js" type="text/javascript"></script>
 </body>
+
 </html>

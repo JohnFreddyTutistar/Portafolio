@@ -356,7 +356,7 @@ section{
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
-    /*align-items: center;*/
+    align-items: center;
     justify-content: space-between;
 }
 .contact .contact-content .column{
@@ -379,7 +379,7 @@ section{
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    /*border: 2px solid #E74C3C;*/
+    /* border: 2px solid #E74C3C; */
     transition: all 0.3s ease;
 }
 .contact .contact-content .left a:hover{
@@ -447,8 +447,8 @@ section{
 .contact .contact-content .right{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
-}
+    /* margin-bottom: 10px; */
+} 
 
 
 /*responsive media query start*/
